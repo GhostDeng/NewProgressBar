@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--未加载的颜色，高度-->
+    <attr name="progress_un_reach_color" format="color" />
+    <attr name="progress_un_reach_height" format="dimension" />
+    <!--已加载的颜色，高度-->
+    <attr name="progress_reach_color" format="color" />
+    <attr name="progress_reach_height" format="dimension" />
+    <!--文本颜色，大小-->
+    <attr name="progress_text_color" format="color" />
+    <attr name="progress_text_size" format="dimension" />
+    <!--文本距离两边的尺寸-->
+    <attr name="progress_margin_size" format="dimension" />
+
+    <!--上面是声明。下面是使用-->
+    <declare-styleable name="HorizontalProgressBar">
+
+        <!--未加载的颜色，高度-->
+        <attr name="progress_un_reach_color" />
+        <attr name="progress_un_reach_height" />
+        <!--已加载的颜色，高度-->
+        <attr name="progress_reach_color" />
+        <attr name="progress_reach_height" />
+        <!--文本颜色，大小-->
+        <attr name="progress_text_color" />
+        <attr name="progress_text_size" />
+        <!--文本距离两边的尺寸-->
+        <attr name="progress_margin_size" />
+
+    </declare-styleable>
+
+    <attr name="play_color" format="color" />
+    <attr name="line_height" format="dimension" />
+    <attr name="un_play_color" format="color" />
+    <attr name="circle_radius" format="dimension" />
+
+    <declare-styleable name="MusicProgressbar">
+
+        <attr name="line_height" />
+        <attr name="play_color" />
+        <attr name="un_play_color" />
+        <attr name="circle_radius" />
+
+    </declare-styleable>
+
+
+</resources>
